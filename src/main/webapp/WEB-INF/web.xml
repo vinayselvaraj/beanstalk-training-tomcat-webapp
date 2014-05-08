@@ -4,4 +4,15 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+    <servlet-name>pagecount</servlet-name>
+    <servlet-class>com.amazon.aws.support.PageCountServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>pagecount</servlet-name>
+    <url-pattern>/pagecount</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
