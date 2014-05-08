@@ -1,5 +1,5 @@
 <html>
-  <body>
-    <h2>Hello World! <%= new java.util.Date().toString() %></h2>
-  </body>
+  <head>
+    <META http-equiv="refresh" content="0;URL=pagecount">
+  </head>
 </html>
