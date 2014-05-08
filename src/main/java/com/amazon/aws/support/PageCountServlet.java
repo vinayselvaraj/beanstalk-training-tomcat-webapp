@@ -32,6 +32,7 @@ public class PageCountServlet extends HttpServlet {
     out.println("<ul>");
     out.println("  <li>Instance ID: " + ApplicationConfig.getInstance().getInstanceId() + "</li>");
     out.println("  <li>Availability Zone: " + ApplicationConfig.getInstance().getAvailabilityZone() + "</li>");
+    out.println("  <li>DynamoDB Table: " + ApplicationConfig.getInstance().getDynamoDbTable() + "</li>");
     out.println("</ul>");
     out.println("This page has been accessed " + getAndIncrementPageCount() + " times.");
     out.println("</body>");
